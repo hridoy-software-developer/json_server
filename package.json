@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "package description",
   "scripts": {
-    "deploy": "npm run build",
+    "deploy": "node scripts/gh-pages-deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+  	"execa": "latest"
+  },
   "devDependencies": {}
 }
