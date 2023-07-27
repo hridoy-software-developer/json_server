@@ -4,5 +4,6 @@
   },
   "devDependencies": {
     "execa": "latest"
-  }
+  },
+  "type": "module"
 }
